@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16pxpx;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url("background_image.jpg");
+    background-size: cover;
+}
+
+h1, p {
+    text-align: center;
+    color: white;
+
+}
+
+h1{
+    font-size: 1.8em;
+    margin-top: 15px;
+    font-family:"Bowlby One SC", cursive;
+}
+
+p{
+    font-size: 1em;
+    font-family: "Sorts Mill Goudy", sans-serif;
+}
+span {
+    color: red;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+
+/* Form */
+
+.container {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 320px;
+    margin: 1em auto;
+    padding-left: 15px;
+}
+.name{
+    padding-top: 5px;
+}
+.form-element{
+    margin: 0.8em 0;
+}
+
+#name, #age, #mail, #content{
+    border: none;
+    width: 90%;
+    height: 25px;
+    padding-left: 5px;
+}
+.movie-type input{
+    margin-right: 3px;
+}
+.check1, .check2, .check3{
+    display: flex;
+    align-items: center;
+}
+.gender input{
+    margin-right: 3px;
+}
+.gender1, .gender2, .gender3{
+display: flex;
+align-items: center;
+}
+
+#div-submit{
+    display: flex;
+    justify-content: center;
+    margin: 0 10px 0 0;
+    padding-bottom: 5px;
+}
+#btn-submit{
+    width: 8em;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 3px 0;
+}
+
+#feedback{
+    border: none;
+    width: 90%;
+    resize: none;
+}
+
+.screen{
+    position: absolute;
+    left: 2%;
+    top: 3%;
+    z-index: -1;
+    width: 96%;
+    height: 94%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
